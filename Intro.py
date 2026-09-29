@@ -48,7 +48,7 @@ with col2:
     st.write(f"⏳ Explorar: [Enlace]({url})")
 
     st.subheader("Regresión")
-    image = Image.open('data_analisis.png')
+    image = Image.open('recre.jpg')
     st.image(image, width=190)
     st.write("Convierte datos en relaciones y deja que los modelos encuentren la tendencia.")
     url = "https://regresion1-xcpdmqqzdwd9fy5tchiidx.streamlit.app/"
@@ -71,7 +71,7 @@ with col3:
     st.write(f"🌡️ Probar: [Enlace]({url})")
 
     st.subheader("Limpieza de datos")
-    image = Image.open('OIG4.jpg')
+    image = Image.open('clean.jpg')
     st.image(image, width=200)
     st.write("Datos más limpios, modelos más confiables. Dale a tus datos una buena puesta a punto.")
     url = "https://limpiezadatos-2jnxnjxdullblqwnjgxsy5.streamlit.app/"
