@@ -3,9 +3,9 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Portafolio Programacion Avanzada")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
+    "Bienvenido a mi portafolio,  "
     "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
     "resulta en una mayor eficiencia y precisión en diversos campos."
   )
