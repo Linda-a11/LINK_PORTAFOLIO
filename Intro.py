@@ -16,29 +16,33 @@ st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prá
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
+Bloque sin problemas de indentación
+
+
 with col1:
-   st.subheader("Frutas")
-   image = Image.open('txt_to_audio2.png')
-   st.image(image, width=190)
-   st.write("Explora una experiencia interactiva donde la Inteligencia Artificial se encuentra con el mundo de las frutas.")
-  url = "https://frutas-nokzmkbrymex7jhrfgw77f.streamlit.app/"
-  st.write(f"🍎 Explorar: [Enlace]({url})")
+    st.subheader("Frutas")
+    image = Image.open('txt_to_audio2.png')
+    st.image(image, width=190)
+    st.write("Explora una experiencia interactiva donde la Inteligencia Artificial se encuentra con el mundo de las frutas.")
+    url = "https://frutas-nokzmkbrymex7jhrfgw77f.streamlit.app/"
+    st.write(f"🍎 Explorar: [Enlace]({url})")
 
-st.subheader("Descenso de Gradiente Interactivo")
-image = Image.open('txt_to_audio.png')
-st.image(image, width=200)
-st.write("Descubre cómo un algoritmo encuentra el camino hacia la mejor solución, paso a paso.")
-url = "https://appgradier-i2fhmkpa8y3j99syx5wfyq.streamlit.app/"
-st.write(f"📉 Experimentar: [Enlace]({url})")
+    st.subheader("Descenso de Gradiente Interactivo")
+    image = Image.open('txt_to_audio.png')
+    st.image(image, width=200)
+    st.write("Descubre cómo un algoritmo encuentra el camino hacia la mejor solución, paso a paso.")
+    url = "https://appgradier-i2fhmkpa8y3j99syx5wfyq.streamlit.app/"
+    st.write(f"📉 Experimentar: [Enlace]({url})")
 
-st.subheader("Datos: preparación y estructura")
-image = Image.open('OIG5.jpg')
-st.image(image, width=200)
-st.write("Antes de que los datos hablen, hay que ponerlos en orden. Aquí comienza el proceso.")
-url = "https://trabajo1-r8qbrczcyr83agvurfalyx.streamlit.app/"
-st.write(f"🧩 Explorar: [Enlace]({url})")
+    st.subheader("Datos: preparación y estructura")
+    image = Image.open('OIG5.jpg')
+    st.image(image, width=200)
+    st.write("Antes de que los datos hablen, hay que ponerlos en orden. Aquí comienza el proceso.")
+    url = "https://trabajo1-r8qbrczcyr83agvurfalyx.streamlit.app/"
+    st.write(f"🧩 Explorar: [Enlace]({url})")
 
-with col2: 
+
+with col2:
     st.subheader("Serie de tiempo")
     image = Image.open('OIG8.jpg')
     st.image(image, width=200)
@@ -61,7 +65,7 @@ with col2:
     st.write(f"🎯 Explorar: [Enlace]({url})")
 
 
-with col3: 
+with col3:
     st.subheader("Predictor de Sensación Térmica")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
@@ -75,7 +79,7 @@ with col3:
     st.write("Datos más limpios, modelos más confiables. Dale a tus datos una buena puesta a punto.")
     url = "https://limpiezadatos-2jnxnjxdullblqwnjgxsy5.streamlit.app/"
     st.write(f"🧹 Explorar: [Enlace]({url})")
- 
+
     st.subheader("Sistema Ciberfísico")
     image = Image.open('OIG6.jpg')
     st.image(image, width=200)
@@ -90,10 +94,9 @@ with col3:
     url = "https://clasificaci-n-de-fertilidad-de-suelos-dzagvqtnqdel93wobengpl.streamlit.app/"
     st.write(f"🌱 Explorar: [Enlace]({url})")
 
-st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
-image = Image.open('OIG6.jpg')
-st.image(image, width=200)
-st.write("Encuentra lo que se sale de lo normal y descubre cómo la lógica y el código trabajan juntos.")
-url = "https://juegoprogramacionavanzada-ebpvypkht2pa4vmbsqlurv.streamlit.app/"
-st.write(f"🔎 Detectar: [Enlace]({url})")
-
+    st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
+    image = Image.open('OIG6.jpg')
+    st.image(image, width=200)
+    st.write("Encuentra lo que se sale de lo normal y descubre cómo la lógica y el código trabajan juntos.")
+    url = "https://juegoprogramacionavanzada-ebpvypkht2pa4vmbsqlurv.streamlit.app/"
+    st.write(f"🔎 Detectar: [Enlace]({url})")
