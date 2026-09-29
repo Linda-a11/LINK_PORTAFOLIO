@@ -25,7 +25,7 @@ with col1:
     st.write(f"🍎 Explorar: [Enlace]({url})")
 
     st.subheader("Descenso de Gradiente Interactivo")
-    image = Image.open('txt_to_audio.png')
+    image = Image.open('graint.png')
     st.image(image, width=200)
     st.write("Descubre cómo un algoritmo encuentra el camino hacia la mejor solución, paso a paso.")
     url = "https://appgradier-i2fhmkpa8y3j99syx5wfyq.streamlit.app/"
@@ -41,7 +41,7 @@ with col1:
 
 with col2:
     st.subheader("Serie de tiempo")
-    image = Image.open('OIG8.jpg')
+    image = Image.open('Time.jpg')
     st.image(image, width=200)
     st.write("Viaja a través de los datos y descubre patrones que cambian con el tiempo.")
     url = "https://serietiempo-dc6vybtpsopreu4qcjxrxx.streamlit.app/"
