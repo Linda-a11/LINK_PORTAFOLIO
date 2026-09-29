@@ -25,7 +25,7 @@ with col1:
     st.write(f"🍎 Explorar: [Enlace]({url})")
 
     st.subheader("Descenso de Gradiente Interactivo")
-    image = Image.open('graint.png')
+    image = Image.open('graint.jpg')
     st.image(image, width=200)
     st.write("Descubre cómo un algoritmo encuentra el camino hacia la mejor solución, paso a paso.")
     url = "https://appgradier-i2fhmkpa8y3j99syx5wfyq.streamlit.app/"
