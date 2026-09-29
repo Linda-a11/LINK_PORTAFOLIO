@@ -18,70 +18,86 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://frutas-nokzmkbrymex7jhrfgw77f.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+st.subheader("Frutas")
+image = Image.open('txt_to_audio2.png')
+st.image(image, width=190)
+st.write("Explora una experiencia interactiva donde la Inteligencia Artificial se encuentra con el mundo de las frutas.")
+url = "https://frutas-nokzmkbrymex7jhrfgw77f.streamlit.app/"
+st.write(f"🍎 Explorar: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://appgradier-i2fhmkpa8y3j99syx5wfyq.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+st.subheader("Descenso de Gradiente Interactivo")
+image = Image.open('txt_to_audio.png')
+st.image(image, width=200)
+st.write("Descubre cómo un algoritmo encuentra el camino hacia la mejor solución, paso a paso.")
+url = "https://appgradier-i2fhmkpa8y3j99syx5wfyq.streamlit.app/"
+st.write(f"📉 Experimentar: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+st.subheader("Datos: preparación y estructura")
+image = Image.open('OIG5.jpg')
+st.image(image, width=200)
+st.write("Antes de que los datos hablen, hay que ponerlos en orden. Aquí comienza el proceso.")
+url = "https://trabajo1-r8qbrczcyr83agvurfalyx.streamlit.app/"
+st.write(f"🧩 Explorar: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
- st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+    st.subheader("Serie de tiempo")
+    image = Image.open('OIG8.jpg')
+    st.image(image, width=200)
+    st.write("Viaja a través de los datos y descubre patrones que cambian con el tiempo.")
+    url = "https://serietiempo-dc6vybtpsopreu4qcjxrxx.streamlit.app/"
+    st.write(f"⏳ Explorar: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+    st.subheader("Regresión")
+    image = Image.open('data_analisis.png')
+    st.image(image, width=190)
+    st.write("Convierte datos en relaciones y deja que los modelos encuentren la tendencia.")
+    url = "https://regresion1-xcpdmqqzdwd9fy5tchiidx.streamlit.app/"
+    st.write(f"📊 Experimentar: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+    st.subheader("Regresión Logística interactiva")
+    image = Image.open('OIG3.jpg')
+    st.image(image, width=200)
+    st.write("Una mirada interactiva a cómo los datos pueden ayudarnos a tomar decisiones de clasificación.")
+    url = "https://nwcf9mkmqmmj4pmvuythtv.streamlit.app/"
+    st.write(f"🎯 Explorar: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
- st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+    st.subheader("Predictor de Sensación Térmica")
+    image = Image.open('Chat_pdf.png')
+    st.image(image, width=190)
+    st.write("¿Qué tan caliente o frío se sentirá? Deja que los datos hagan la predicción.")
+    url = "https://prediccionsensacion-gslxba8faz7jkqhq6tb3aa.streamlit.app/"
+    st.write(f"🌡️ Probar: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+    st.subheader("Limpieza de datos")
+    image = Image.open('OIG4.jpg')
+    st.image(image, width=200)
+    st.write("Datos más limpios, modelos más confiables. Dale a tus datos una buena puesta a punto.")
+    url = "https://limpiezadatos-2jnxnjxdullblqwnjgxsy5.streamlit.app/"
+    st.write(f"🧹 Explorar: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+    st.subheader("Sistema Ciberfísico")
+    image = Image.open('OIG6.jpg')
+    st.image(image, width=200)
+    st.write("Cuando los datos salen de la pantalla y comienzan a interactuar con el mundo real.")
+    url = "https://vision2-gpt4o.streamlit.app/"
+    st.write(f"🤖 Descubrir: [Enlace]({url})")
+
+    st.subheader("Explora KNN con datos de suelos de AGROSAVIA")
+    image = Image.open('OIG6.jpg')
+    st.image(image, width=200)
+    st.write("Explora cómo los vecinos más cercanos pueden revelar patrones en los datos de fertilidad del suelo.")
+    url = "https://clasificaci-n-de-fertilidad-de-suelos-dzagvqtnqdel93wobengpl.streamlit.app/"
+    st.write(f"🌱 Explorar: [Enlace]({url})")
+
+st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
+image = Image.open('OIG6.jpg')
+st.image(image, width=200)
+st.write("Encuentra lo que se sale de lo normal y descubre cómo la lógica y el código trabajan juntos.")
+url = "https://juegoprogramacionavanzada-ebpvypkht2pa4vmbsqlurv.streamlit.app/"
+st.write(f"🔎 Detectar: [Enlace]({url})")
+
+
 
 
