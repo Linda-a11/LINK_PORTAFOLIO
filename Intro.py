@@ -18,11 +18,11 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.subheader("Frutas")
-image = Image.open('txt_to_audio2.png')
-st.image(image, width=190)
-st.write("Explora una experiencia interactiva donde la Inteligencia Artificial se encuentra con el mundo de las frutas.")
-url = "https://frutas-nokzmkbrymex7jhrfgw77f.streamlit.app/"
-st.write(f"🍎 Explorar: [Enlace]({url})")
+   image = Image.open('txt_to_audio2.png')
+   st.image(image, width=190)
+   st.write("Explora una experiencia interactiva donde la Inteligencia Artificial se encuentra con el mundo de las frutas.")
+  url = "https://frutas-nokzmkbrymex7jhrfgw77f.streamlit.app/"
+  st.write(f"🍎 Explorar: [Enlace]({url})")
 
 st.subheader("Descenso de Gradiente Interactivo")
 image = Image.open('txt_to_audio.png')
@@ -96,7 +96,4 @@ st.image(image, width=200)
 st.write("Encuentra lo que se sale de lo normal y descubre cómo la lógica y el código trabajan juntos.")
 url = "https://juegoprogramacionavanzada-ebpvypkht2pa4vmbsqlurv.streamlit.app/"
 st.write(f"🔎 Detectar: [Enlace]({url})")
-
-
-
 
