@@ -32,7 +32,7 @@ with col1:
     st.write(f"📉 Experimentar: [Enlace]({url})")
 
     st.subheader("Datos: preparación y estructura")
-    image = Image.open('OIG5.jpg')
+    image = Image.open('estruct.jpg')
     st.image(image, width=200)
     st.write("Antes de que los datos hablen, hay que ponerlos en orden. Aquí comienza el proceso.")
     url = "https://trabajo1-r8qbrczcyr83agvurfalyx.streamlit.app/"
