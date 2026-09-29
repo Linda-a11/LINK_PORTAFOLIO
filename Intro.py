@@ -64,7 +64,7 @@ with col2:
 
 with col3:
     st.subheader("Predictor de Sensación Térmica")
-    image = Image.open('termi2.png')
+    image = Image.open('termi2.jpg')
     st.image(image, width=190)
     st.write("¿Qué tan caliente o frío se sentirá? Deja que los datos hagan la predicción.")
     url = "https://prediccionsensacion-gslxba8faz7jkqhq6tb3aa.streamlit.app/"
