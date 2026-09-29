@@ -17,8 +17,7 @@ st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
- 
-st.subheader("Frutas")
+   st.subheader("Frutas")
 image = Image.open('txt_to_audio2.png')
 st.image(image, width=190)
 st.write("Explora una experiencia interactiva donde la Inteligencia Artificial se encuentra con el mundo de las frutas.")
