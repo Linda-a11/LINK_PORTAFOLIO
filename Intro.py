@@ -48,7 +48,7 @@ with col2:
     st.write(f"⏳ Explorar: [Enlace]({url})")
 
     st.subheader("Regresión")
-    image = Image.open('recre.jpg')
+    image = Image.open('regre.jpg')
     st.image(image, width=190)
     st.write("Convierte datos en relaciones y deja que los modelos encuentren la tendencia.")
     url = "https://regresion1-xcpdmqqzdwd9fy5tchiidx.streamlit.app/"
