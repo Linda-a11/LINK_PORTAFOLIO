@@ -16,9 +16,6 @@ st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prá
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
-Bloque sin problemas de indentación
-
-
 with col1:
     st.subheader("Frutas")
     image = Image.open('txt_to_audio2.png')
