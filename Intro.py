@@ -55,7 +55,7 @@ with col2:
     st.write(f"📊 Experimentar: [Enlace]({url})")
 
     st.subheader("Regresión Logística interactiva")
-    image = Image.open('OIG3.jpg')
+    image = Image.open('logist.jpg')
     st.image(image, width=200)
     st.write("Una mirada interactiva a cómo los datos pueden ayudarnos a tomar decisiones de clasificación.")
     url = "https://nwcf9mkmqmmj4pmvuythtv.streamlit.app/"
@@ -64,7 +64,7 @@ with col2:
 
 with col3:
     st.subheader("Predictor de Sensación Térmica")
-    image = Image.open('Chat_pdf.png')
+    image = Image.open('termi2.png')
     st.image(image, width=190)
     st.write("¿Qué tan caliente o frío se sentirá? Deja que los datos hagan la predicción.")
     url = "https://prediccionsensacion-gslxba8faz7jkqhq6tb3aa.streamlit.app/"
