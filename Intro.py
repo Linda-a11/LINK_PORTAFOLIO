@@ -97,3 +97,12 @@ with col3:
     st.write("Encuentra lo que se sale de lo normal y descubre cómo la lógica y el código trabajan juntos.")
     url = "https://juegoprogramacionavanzada-ebpvypkht2pa4vmbsqlurv.streamlit.app/"
     st.write(f"🔎 Detectar: [Enlace]({url})")
+     
+    st.subheader("Fundamentos de computacion paralela")
+    image = Image.open('big.jpg')
+    st.image(image, width=200)
+    st.write("uso simultáneo de varios procesadores para resolver problemas con mayor velocidad y eficiencia.")
+    url = "https://programacionorientadao-uugwot68kq3rdnjmb3xynw.streamlit.app/"
+    st.write(f"🔎 Detectar: [Enlace]({url})")
+
+
