@@ -99,7 +99,7 @@ with col3:
     st.write(f"🔎 Detectar: [Enlace]({url})")
      
     st.subheader("Fundamentos de computacion paralela")
-    image = Image.open('big.jpg')
+    image = Image.open('lelo.jpg')
     st.image(image, width=200)
     st.write("uso simultáneo de varios procesadores para resolver problemas con mayor velocidad y eficiencia.")
     url = "https://programacionorientadao-uugwot68kq3rdnjmb3xynw.streamlit.app/"
