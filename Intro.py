@@ -85,7 +85,7 @@ with col3:
     st.write(f"🤖 Descubrir: [Enlace]({url})")
 
     st.subheader("Explora KNN con datos de suelos de AGROSAVIA")
-    image = Image.open('OIG6.jpg')
+    image = Image.open('agrosa.jpg')
     st.image(image, width=200)
     st.write("Explora cómo los vecinos más cercanos pueden revelar patrones en los datos de fertilidad del suelo.")
     url = "https://clasificaci-n-de-fertilidad-de-suelos-dzagvqtnqdel93wobengpl.streamlit.app/"
