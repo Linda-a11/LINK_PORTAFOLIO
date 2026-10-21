@@ -92,7 +92,7 @@ with col3:
     st.write(f"🌱 Explorar: [Enlace]({url})")
 
     st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
-    image = Image.open('OIG6.jpg')
+    image = Image.open('bing.jpg')
     st.image(image, width=200)
     st.write("Encuentra lo que se sale de lo normal y descubre cómo la lógica y el código trabajan juntos.")
     url = "https://juegoprogramacionavanzada-ebpvypkht2pa4vmbsqlurv.streamlit.app/"
